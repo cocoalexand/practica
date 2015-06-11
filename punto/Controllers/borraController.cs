@@ -16,6 +16,7 @@ namespace punto.Controllers
         {
             punto.Models.puntoencuentroEntities bd = new Models.puntoencuentroEntities();
             punto.Models.tbevento n = new Models.tbevento();
+            punto.Models.tbtitulo t = new Models.tbevento();
             n.estado = 1;
             n.titulo = "h";
             bd.tbevento.Add(n);
